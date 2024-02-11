@@ -10,7 +10,7 @@ function calc(){
     document.getElementById("msg").innerHTML="The chance of "+myname+" having succesful relation with "+othername+" is";
     document.getElementById("percentage").innerHTML=per + "%";
     if(per<=40){
-        document.getElementById("result").innerHTML="dusri wli khoj yha chance kam ha";
+        document.getElementById("result").innerHTML="Dusri wli khoj yha chance kam ha";
 
     }
     else if(per>40 && per<=60){
