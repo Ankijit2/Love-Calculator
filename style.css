@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 72, 72);
+   
+}
+
+nav{
+   text-align: center;
+   margin: 30px;
+   color: white;
+  
+}
+
+nav h1{
+    font-family: 'Dancing Script', 'cursive';
+   font-size: 4rem;
+  
+
+
+
+}
+
+nav p{
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 12px;
+    font-size: 1.2rem;
+    
+}
+
+form{
+    margin-top: 12rem;
+
+}
+
+#myname,#othername{
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.inputtext{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#btn{
+   display: block;
+   margin: auto;
+   margin-top: 50px;
+   font-size: 1.2rem;
+   padding: 5px 10px;
+   font-family: 'Dancing Script', 'cursive';
+   font-weight: bolder;
+   border-radius: 20px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   box-shadow: 0 9px pink;
+   border: none;
+
+}
+
+#btn:hover{
+    background-color: rgb(251, 141, 159);
+}
+#btn:active{
+    background-color: rgb(251, 141, 159);
+    box-shadow: 0 5px pink;
+    transform: translateY(4px);
+}
+
+
+.result{
+    text-align: center;
+    margin-top: 5rem;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 1.4rem;
+}
+
+#percentage{
+    font-size: 3rem;
+    margin: 16px;
+}
+
+#result{
+    font-size: 1.4rem;
+    margin: 16px;
+}
+
